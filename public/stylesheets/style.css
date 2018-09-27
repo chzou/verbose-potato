@@ -1,0 +1,63 @@
+:root {
+  --dark-color: #FFDE00;
+  --light-color: #51575E;
+  --light-color: black;
+}
+
+body {
+  padding: 50px;
+  font-family: 'Open Sans', cursive;
+  font-size: 20px;
+  color: var(--light-color);
+}
+
+.container {
+  position: absolute;
+  width: 62%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+#name {
+  font-family: 'Contrail One', cursive;
+  font-size: 130px;
+  margin-left: 130px;
+  margin-right: 90px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.text {
+  font-family: 'Contrail One', cursive;
+  font-size: 50px;
+}
+
+.header {
+  color: var(--dark-color);
+  margin-bottom: 30px;
+}
+
+#intro {
+  color: var(--dark-color);
+}
+
+.links {
+  text-align: right;
+}
+
+#links-small {
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.links a {
+  color: var(--dark-color);
+  text-decoration: none;
+  transition: all 300ms ease;
+}
+
+.links a:hover {
+  color: black;
+}
+
